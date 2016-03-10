@@ -1,0 +1,287 @@
+* { font-family: 'Open Sans', sans-serif; margin: 0; padding: 0; }
+
+
+
+/*-------------nav-------------*/
+nav {
+	text-align: center;
+	width: 100%;
+	background-color: black;
+	line-height: 3em;
+	position: fixed;
+	top: 0;
+}
+
+nav ul li {
+	display: inline;
+	padding: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 80%;
+}
+
+nav ul li a:hover {
+	color: #fff2cc;
+
+}
+
+nav ul li a.current {
+	color: #fff2cc;
+}
+
+/*-------------responsive-------------*/
+.logo {
+	display: none;
+}
+
+.icon {
+	display: none;
+}
+
+#background {
+	background-image: url("../images/home_wine.jpg");
+	width: 100%;
+}
+
+.col-3 {
+	width: 100%;
+    float: left;
+    display: block;
+    margin-top: 20px;
+    font-size: .8em;
+}
+
+.col-3 p {
+	margin: 5px auto;
+}
+
+.col-3 h1 {
+}
+
+
+.col-2 {
+	width: 29%;
+	margin-right: 2%;
+	margin-left: 2%;
+	float: left;
+	font-size: 70%;
+	color: #ee6363;
+
+}
+
+.row {
+	margin: 0 8%;
+}
+
+aside {
+	width: 100%;
+	margin: 0 3%;
+}
+
+.image {
+	width: 100%;
+	margin-bottom: 50px;
+	margin-top: 40px;
+}
+
+.map {
+	width: 100%;
+	margin: 10px 0;
+}
+/*-------------home-------------*/
+#home {
+	width: 300px;
+	margin: 220px auto;
+
+}
+
+#home h1 {
+	font-size: 7.5em;
+	font-weight: normal;
+	margin-bottom: -15px;
+	color: white;
+	text-shadow: 10px 10px 50px #000000;
+	font-family: 'Poiret One', sans-serif;
+	text-align: center;
+}
+
+#home p {
+	font-size: 1.2em;
+	padding-left: 20px;
+	color: white;
+	word-spacing: 1em;
+	text-shadow: 10px 10px 50px #000000;
+	font-family: 'Poiret One', sans-serif;
+	text-align: center;
+}
+
+#credit {
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+	font-size: .75em;
+}
+
+
+
+/*-------------menu-------------*/
+
+.menupic {
+	float: left;
+	width: 33.33%;
+	margin-right: 0%;
+	margin-top: 40px;
+
+}
+
+.col-4 {
+	float: left;
+	width: 23%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.col-4 h1 {
+	text-align: center;
+	color: #ee6363;
+	margin: 10px auto 50px auto;
+	font-size: 90%;
+}
+
+.col-4 a {
+	text-decoration: none;
+	color: #ee6363;
+	text-transform: lowercase;
+}
+
+.col-4 a:hover {
+	color: black;
+}
+
+#menu p {
+	text-align: left;
+
+	margin-bottom: 10px;
+}
+
+#menu h3 {
+	line-height: 3em;
+	color: #ee6363;
+
+
+}
+
+#menu h2 {
+	border-bottom: 2px;
+	border-bottom-style: solid;
+}
+
+h2#dinner {
+	margin-top: 40px;
+}
+
+h2#wine {
+	margin-top: 40px;
+}
+
+
+/*-------------footer-------------*/
+
+footer {
+	clear: both;
+	text-align: center;
+	background-color: #fff2cc;
+	font-size: .9em;
+	padding: 20px 0;
+	color: #ee6363;
+	font-weight: 300;
+
+}
+
+@media (min-width: 768px) {
+
+	nav ul li {
+	display: inline;
+	padding: 20px;
+}
+
+	nav ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	font-size: 100%;
+}
+.logo {
+	float: left;
+	padding-left: 30px;
+	padding-top: 10px;
+	display: inline;
+}
+.icon {
+	float: right;
+	padding-right: 30px;
+	padding-top: 8px;
+	display: inline;
+}
+
+
+
+#home h1 {
+	color: white;
+}
+#home p {
+	color: white;
+}
+
+.row {
+	width: 750px;
+	margin: 0 auto;
+}
+
+aside {
+	width: 200px;
+	float: left;
+	margin: 0 3% 0 auto;
+}
+
+.col-2 {
+	float: left;
+	width: 100%;
+	font-size: .9em;
+	color: #ee6363;
+	margin-bottom: 40px;
+}
+
+.col-2 h4 {
+	margin-top: 40px;
+	font-weight: 300;
+}
+
+
+
+.col-3 {
+	float: left;
+	width: 63%;
+	margin: 0 3% 40px 3%;
+	font-size: 1em;
+}
+
+.col-3 p {
+	margin-bottom: 20px;
+}
+
+.col-4 h1 {
+	font-size: 1.2em;
+}
+
+}
+
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
